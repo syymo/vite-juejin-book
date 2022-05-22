@@ -36,6 +36,7 @@ const count = ref(0);
 </template>
 
 <style scoped>
+@import url('./index.css');
 a {
     color: #42b983;
 }
