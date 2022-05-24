@@ -10,3 +10,5 @@
 ### 02.vite-lint(小册：5.代码规范: 如何利用 Lint 工具链来保证代码风格和质量？)
 
 - [ ] `pnpm run dev`之后`vite-plugin-eslint`不生效
+
+### 03.vite-static(小册：6.静态资源: 如何在 Vite 中处理各种静态资源？)
