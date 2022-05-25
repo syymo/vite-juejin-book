@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /// <reference types="vite-svg-loader" />
 interface SvgIconProps {
-  name?: string;
+  name: string;
   prefix: string;
   color: string;
   [key: string]: string;

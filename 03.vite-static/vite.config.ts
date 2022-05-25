@@ -6,6 +6,12 @@ import path from 'path';
 import viteSvgLoader from 'vite-svg-loader';
 
 // 图片压缩  安装失败：pnpm i vite-plugin-imagemin -D --ignore-scripts
+/**
+ * https://juejin.cn/post/6996187604337033252
+ * "resolutions": {
+    "bin-wrapper": "npm:bin-wrapper-china"
+  }
+ */
 import viteImagemin from 'vite-plugin-imagemin'
 
 // 雪碧图优化

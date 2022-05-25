@@ -7,7 +7,7 @@ const icons = import.meta.globEager('@assets/icons/logo-*.svg');
 const iconUrls = Object.keys(icons).map((mod) => {
   // 如 ../../assets/icons/logo-1.svg -> logo-1
   const fileName = mod.split('/').pop();
-  const [svgName] = fileName.split('.');
+  const [svgName] = (fileName as string).split('.');
   return svgName;
 });
 

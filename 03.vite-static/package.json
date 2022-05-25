@@ -19,5 +19,8 @@
     "vite-plugin-svg-icons": "^2.0.1",
     "vite-svg-loader": "^3.3.0",
     "vue-tsc": "^0.34.7"
+  },
+  "resolutions": {
+    "bin-wrapper": "npm:bin-wrapper-china"
   }
 }

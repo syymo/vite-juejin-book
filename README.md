@@ -12,3 +12,12 @@
 - [ ] `pnpm run dev`之后`vite-plugin-eslint`不生效
 
 ### 03.vite-static(小册：6.静态资源: 如何在 Vite 中处理各种静态资源？)
+
+- [x] `pnpm i vite-plugin-imagemin -D`安装失败，https://juejin.cn/post/6996187604337033252
+    官方建议：用于安装imagemin的依赖关系，因为中国可能没有安装imagemin
+    ```
+    package.json：
+    "resolutions": {
+        "bin-wrapper": "npm:bin-wrapper-china"
+    },
+    ```
